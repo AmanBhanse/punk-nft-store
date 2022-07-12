@@ -1,16 +1,16 @@
-.main{
+.main {
   max-height: 50wh;
 
 }
 
-.mainContent{
+.mainContent {
   display: flex;
   padding-bottom: 20px;
   border-bottom: 1px solid #fff;
   width: 100%;
 }
 
-.punkHighlight{
+.punkHighlight {
   flex: 0.25;
   display: flex;
   align-items: center;
@@ -24,26 +24,26 @@
   margin-right: 20px;
 }
 
-.punkDetails{
+.punkDetails {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex:0.75;
+  flex: 0.75;
   margin-bottom: 1rem;
 
-  .title{
-    flex : 1;
-    color:white;
+  .title {
+    flex: 1;
+    color: white;
     font-size: 5rem;
   }
 
-  .itemNumber{
+  .itemNumber {
     color: wheat;
     font-size: 3rem;
   }
 }
 
-.selectedPunk{
+.selectedPunk {
   object-fit: contain;
   max-width: min(30vw, 40vh);
   max-height: 30vw;
@@ -51,44 +51,50 @@
 
 
 
-.ownerDetails{
-  color:white;
+.ownerDetails {
+  color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  
-  div{
+
+  div {
     margin-right: 1rem;
   }
 
-  .ownerAddress{
+  .ownerAddress {
     font-size: 1.2rem;
   }
-}
 
 
 
-.ownerImageContainer{
-  img{
-    width: 100px;
-  height: 100px;
-  object-fit: contain;
-  border-radius: 20px;
+  & div:nth-child(2) {
+    flex-grow: 2;
   }
 }
 
-.ownerHandle{
-  display : flex;
+
+
+.ownerImageContainer {
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 20px;
+  }
+}
+
+.ownerHandle {
+
+  display: flex;
   align-items: center;
   justify-content: space-between;
 
-  img{
+  img {
     width: 50px;
     height: 50px;
     object-fit: contain;
   }
 }
 
-.details{
+.details {
   overflow: hidden;
 }

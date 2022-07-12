@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import Main from "../components/Main";
-import PunkList from "../components/PunkList";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import Main from '../components/Main';
+import PunkList from '../components/PunkList';
+import walletConfig from '../cred/walletConfig.json';
 
 const MainSection = () => {
   const [punkListData, setPunkListData] = useState([]);
@@ -20,14 +21,14 @@ const MainSection = () => {
   const getMyNfts = async () => {
     axios
       .get(
-        "https://testnets-api.opensea.io/assets?asset_contract_address=0xc5B3124B32cf6061a46235db792aA120268c0EA0&order_direction=asc"
+        `https://testnets-api.opensea.io/assets?asset_contract_address=${walletConfig.contactAddress}&order_direction=asc`
       )
       .then(
         (openseaData) => {
           setPunkListData(openseaData.data.assets);
           setIsDataLoad(true);
           console.log(punkListData);
-          console.log("isDataLoaded" + isDataLoad);
+          console.log('isDataLoaded' + isDataLoad);
         },
         (error) => {
           console.log(error);

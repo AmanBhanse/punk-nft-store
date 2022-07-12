@@ -38,7 +38,7 @@ Steps :
   - In your wallet set Network to `Rinkeby Test Network`
   - Open brower, go to [Faucets](https://faucets.chain.link/rinkeby).
     - Inside `Testnet account address`, input your wallet address. Example : "0x67xxxxxxxxxxxxxxx".
-    - Request type : 0.1 test ETH
+    - Request type : **check** 0.1 test ETH (**uncheck** `test LINK` box)
     - Click on `Send Request` (This will take some time)
 
 - Once you get your fake cryto then in Third web's dashboard create NFT Collections. while creating the collection it will ask for `gas fees`, since you have fake cryto, when hit create collection, check your wallet, it would be requesting cryto and allow transaction.

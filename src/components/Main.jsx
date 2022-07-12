@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import twitterLogo from '../assets/owner/twitter.png';
-import moreIcon from '../assets/owner/more.png';
-
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import './Main.scss';
+import ownerConfig from '../cred/ownerConfig.json';
 
 const Main = ({ selectedPunk, punkListData }) => {
   const [activePunk, setActivePunk] = useState(null);
@@ -38,14 +37,24 @@ const Main = ({ selectedPunk, punkListData }) => {
                 </div>
                 <div className='ownerAddressAndName'>
                   <div className='ownerAddress'>{activePunk.owner.address}</div>
-                  <div className='ownerHandle'>Aman Bhanse</div>
+                  <div className='ownerName'>Aman Bhanse</div>
                 </div>
                 <div className='ownerHandle'>
                   <div className='ownerLink'>
-                    <img src={twitterLogo} alt='' />
+                    <a
+                      href={ownerConfig.gitHubHandle}
+                      target='_blank'
+                      rel='noopener noreferrer'>
+                      <AiFillGithub />
+                    </a>
                   </div>
                   <div className='ownerLink'>
-                    <img src={moreIcon} alt='' />
+                    <a
+                      href={ownerConfig.linkedInHandle}
+                      target='_blank'
+                      rel='noopener noreferrer'>
+                      <AiFillLinkedin />
+                    </a>
                   </div>
                 </div>
               </div>

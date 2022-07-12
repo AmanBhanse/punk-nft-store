@@ -1,6 +1,5 @@
 .main {
   max-height: 50wh;
-
 }
 
 .mainContent {
@@ -49,8 +48,6 @@
   max-height: 30vw;
 }
 
-
-
 .ownerDetails {
   color: white;
   display: flex;
@@ -64,14 +61,10 @@
     font-size: 1.2rem;
   }
 
-
-
   & div:nth-child(2) {
     flex-grow: 2;
   }
 }
-
-
 
 .ownerImageContainer {
   img {
@@ -83,15 +76,19 @@
 }
 
 .ownerHandle {
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
+  .ownerLink {
+    a {
+      color: white
+    }
+
+    svg {
+      width: 50px;
+      height: 50px;
+    }
   }
 }
 

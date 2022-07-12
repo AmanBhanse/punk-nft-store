@@ -1,18 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import Main from '../components/Main';
-import PunkList from '../components/PunkList';
-import walletConfig from '../cred/walletConfig.json';
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import Main from "../components/Main";
+import PunkList from "../components/PunkList";
+import walletConfig from "../cred/walletConfig.json";
 
 const MainSection = () => {
   const [punkListData, setPunkListData] = useState([]);
   const [selectedPunk, setSelectedPunk] = useState(0);
   const [isDataLoad, setIsDataLoad] = useState(false);
-  useEffect(() => {
-    console.log(isDataLoad);
-    console.log(selectedPunk);
-    console.log(punkListData);
-  }, [isDataLoad, selectedPunk, punkListData]);
 
   useEffect(() => {
     getMyNfts();
@@ -27,8 +22,6 @@ const MainSection = () => {
         (openseaData) => {
           setPunkListData(openseaData.data.assets);
           setIsDataLoad(true);
-          console.log(punkListData);
-          console.log('isDataLoaded' + isDataLoad);
         },
         (error) => {
           console.log(error);

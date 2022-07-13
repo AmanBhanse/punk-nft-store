@@ -4,7 +4,11 @@
 
 Click below to watch demo video
 
-[![Punk NFT Store](https://img.youtube.com/vi/pc414kDi6cE/0.jpg)](https://www.youtube.com/watch?v=pc414kDi6cE)
+<p align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pc414kDi6cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</p>
 
 ## How to run project
 

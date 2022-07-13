@@ -2,7 +2,7 @@
 
 #Project demo
 
-[![Punk NFT Store](https://img.youtube.com/vi/GycVvBf75sc)](https://www.youtube.com/watch?v=GycVvBf75sc)
+[![Punk NFT Store](https://img.youtube.com/vi/GycVvBf75sc/0.jpg)](https://www.youtube.com/watch?v=GycVvBf75sc)
 
 ## How to run project
 

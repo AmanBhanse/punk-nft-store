@@ -49,8 +49,8 @@ Steps :
 
 - Once you get your fake cryto then in Third web's dashboard create NFT Collections. while creating the collection it will ask for `gas fees`, since you have fake cryto, when hit create collection, check your wallet, it would be requesting cryto and you should allow transaction.
 
-- Once you setup the NFT Collection Project in Thrid web. Mint the NFT and also set price of your NFT in `property` section like `price` : `20`. Once you filled all the details then click on "Mint NFT" and it will ask for gas fee, so check your wallet and allow the transation. Once Minting is completed then you will notice new row is added inside your NFT collection.Similarly you can mint more NFTs
+- Once you setup the NFT Collection Project in Third web. Mint the NFT and also set price of your NFT in `property` section like `price` : `20`. Once you filled all the details then click on "Mint NFT" and it will ask for gas fee, so check your wallet and allow the transation. Once Minting is completed then you will notice new row is added inside your NFT collection.Similarly you can mint more NFTs
 
-- Now, inside Third web, inside your NFT Collection, copy the `contact address` (I am not reffering to wallet address) and go inside `src/cred/walletConfig.json` and set your contact address as value for key `contactAddress` (Please check out project demo video (mentioned above), there I have shown where you can find the contact address in thrid web) . (By default its my contact address that's why it is showing my NFTs)
+- Now, inside Third web, inside your NFT Collection, copy the `contact address` (I am not reffering to wallet address) and go inside `src/cred/walletConfig.json` and set your contact address as value for key `contactAddress` (Please check out project demo video (mentioned above), there I have shown where you can find the contact address in third web) . (By default its my contact address that's why it is showing my NFTs)
 
 - Finally, in project's root terminal, run `npm start run`.

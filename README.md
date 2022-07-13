@@ -1,6 +1,8 @@
 # Punk NFT Store
 
-#Project demo
+## Project demo
+
+Click below to watch demo video
 
 [![Punk NFT Store](https://img.youtube.com/vi/GycVvBf75sc/0.jpg)](https://www.youtube.com/watch?v=GycVvBf75sc)
 

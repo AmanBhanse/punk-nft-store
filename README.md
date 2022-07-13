@@ -2,9 +2,7 @@
 
 #Project demo
 
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GycVvBf75sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+[![Punk NFT Store](https://img.youtube.com/vi/GycVvBf75sc)](https://www.youtube.com/watch?v=GycVvBf75sc)
 
 ## How to run project
 

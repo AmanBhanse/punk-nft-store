@@ -1,5 +1,8 @@
 # Punk NFT Store
 
+A decentralized application (dApp) for buying and selling unique **CryptoPunk-style NFTs**, built with **Thirdweb** and integrated with **MetaMask**. This project showcases a seamless NFT marketplace leveraging blockchain technology.
+
+
 ## Project demo
 
 Click below to watch demo video
